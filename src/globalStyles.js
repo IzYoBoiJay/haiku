@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const FONT_BASE = '1.6rem';
-export const FONT_SMALL = '2.1rem';
-export const FONT_MED = '3.7rem';
-export const FONT_LARGE = '6.7rem';
+export const FONT_BASE = '1.6vh';
+export const FONT_SMALL = '2.1vh';
+export const FONT_MED = '3.7vh';
+export const FONT_LARGE = '6.7vh';

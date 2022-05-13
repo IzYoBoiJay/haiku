@@ -26,6 +26,8 @@ function Hero() {
 
                 </HeroSlide>
 
+                <HeroH3>Empower Your Thinking with AI-Driven Responses</HeroH3>
+
                 <HeroBtn>Ask hAIku</HeroBtn>
 
             </HeroFlexContent>

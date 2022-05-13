@@ -76,6 +76,8 @@ export const HeroP = styled.p`
 
 export const HeroBtn = styled.a`
 
+    margin-top: 1vw;
+
     text-align: center;
     text-decoration: none;
     font-size: ${FONT_BASE};

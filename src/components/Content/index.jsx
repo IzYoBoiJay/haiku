@@ -1,9 +1,15 @@
 import React from 'react'
-import { ContentContainer } from './ContentElements'
+import { ContentContainer, PromptContainer, ResponseContainer } from './ContentElements'
 
 const Content = () => {
   return (
-    <ContentContainer>Test</ContentContainer>
+    <ContentContainer>
+
+        <PromptContainer>Test</PromptContainer>
+
+        <ResponseContainer>Test</ResponseContainer>
+
+    </ContentContainer>
   )
 }
 

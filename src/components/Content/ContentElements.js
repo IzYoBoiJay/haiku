@@ -3,7 +3,7 @@ import {FONT_BASE, FONT_SMALL, FONT_MED, FONT_LARGE} from "../../globalStyles.js
 
 export const ContentContainer = styled.div`
 
-    background: #151925;
+    background: #4663BE;
     position: relative;
     height: 100vh;
     color: white;
@@ -20,7 +20,7 @@ export const PromptContainer = styled.div`
     position: absolute;
     width: 40vw;
     height: 85vh;
-    background-color: #15202b;
+    background-color: #8DBAFE;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,6 @@ export const PromptForm = styled.form`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
 
 `;
 
@@ -49,8 +48,8 @@ export const TextBox = styled.textarea`
   display: flex;
   text-align: left;
   padding: 15px 10px 10px 10px;
-  border-radius: 1.1em;
-  margin-bottom: 5.5vh;
+  border-radius: 0.8em;
+  margin: 2vh 2vh 2vh 2vh;
 
 `;
 
@@ -59,7 +58,7 @@ export const SubmitButton = styled.input`
   position: relative;
   right: 10px;
   bottom: 10px;
-  background: wheat;
+  background: #21AEE4;
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;
@@ -76,7 +75,9 @@ export const SubmitButton = styled.input`
   flex-direction: column;
   padding-top: 20px; 
   &:hover {
-    background: #fff;
+    background: #85F1FE;
+    border-style: solid;
+    border-color: #21AEE4;
     transition: 0.2s ease-in-out;
     cursor: pointer;
     color: #000;
